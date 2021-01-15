@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style>
+      .gm-style .gm-style-mtc label,
+      .gm-style .gm-style-mtc div {
+        font-weight: 400;
+      }
+      .gm-style .gm-style-mtc ul,
+      .gm-style .gm-style-mtc li {
+        box-sizing: border-box;
+      }
+    </style>
+    <style>
+      .gm-control-active > img {
+        box-sizing: content-box;
+        display: none;
+        left: 50%;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .gm-control-active > img:nth-child(1) {
+        display: block;
+      }
+      .gm-control-active:hover > img:nth-child(1),
+      .gm-control-active:active > img:nth-child(1) {
+        display: none;
+      }
+      .gm-control-active:hover > img:nth-child(2),
+      .gm-control-active:active > img:nth-child(3) {
+        display: block;
+      }
+    </style>
+    <link type="text/css" rel="stylesheet" href="home_files/css_002.css" />
+
+    <style>
+      .gm-ui-hover-effect {
+        opacity: 0.6;
+      }
+      .gm-ui-hover-effect:hover {
+        opacity: 1;
+      }
+    </style>
+    <style>
+      .gm-style .gm-style-cc span,
+      .gm-style .gm-style-cc a,
+      .gm-style .gm-style-mtc div {
+        font-size: 10px;
+        box-sizing: border-box;
+      }
+    </style>
+    <style>
+      @media print {
+        .gm-style .gmnoprint,
+        .gmnoprint {
+          display: none;
+        }
+      }
+      @media screen {
+        .gm-style .gmnoscreen,
+        .gmnoscreen {
+          display: none;
+        }
+      }
+    </style>
+    <style>
+      .gm-style-pbc {
+        transition: opacity ease-in-out;
+        background-color: rgba(0, 0, 0, 0.45);
+        text-align: center;
+      }
+      .gm-style-pbt {
+        font-size: 22px;
+        color: white;
+        font-family: Roboto, Arial, sans-serif;
+        position: relative;
+        margin: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    </style>
+    <style>
+      .gm-style img {
+        max-width: none;
+      }
+      .gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+    </style>
+    <meta charset="UTF-8" />
+
+    <!-- Title-->
+    <title>Cosmos College Of Management And Technology</title>
+
+    <!-- SEO Meta-->
+    <meta name="description" content="Cosmos College" />
+    <meta name="keywords" content="Pokhara University" />
+    <meta name="author" content="education" />
+
+    <!-- viewport scale-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- Favicon and Apple Icons -->
+    <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link
+      rel="shortcut icon"
+      href="https://cosmoscollege.edu.np/frontend/img/favicon/114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://cosmoscollege.edu.np/frontend/img/favicon/cosmos.png"
+    />
+   
+
+    <!--Google fonts-->
+    <link rel="stylesheet" href="home_files/css.css" />
+
+    <!-- Icon fonts -->
+    <link rel="stylesheet" href="home_files/all.css" />
+    <link rel="stylesheet" href="home_files/themify-icons.css" />
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  />
+
+    <!-- stylesheet-->
+    <link rel="stylesheet" href="home_files/vendors.css" />
+    <link rel="stylesheet" href="home_files/style.css" />
+    <link type="text/css" rel="stylesheet" href="../style_enigma.css" />
+
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="../responsive.css">
+
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/common.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/util.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/geocoder.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/AuthenticationService.Authenticate"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/GeocodeService.Search"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/map.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/marker.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/onion.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/ViewportInfoService.GetViewportInfo"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/infowindow.js"
+    ></script>
+    <script type="text/javascript" charset="UTF-8" src="home_files/vt"></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/controls.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="home_files/QuotaService.RecordEvent"
+    ></script>
+  </head>
+
+  <body>
+    <header class="site-header bg-color_enigma text-white">
+      <div class="container">
+        <div class="row align-items-center justify-content-between mx-0">
+          <ul class="list-inline d-none d-lg-block mb-0">
+            <li class="list-inline-item mr-3">
+              <div class="d-flex align-items-center">
+                <i class="fa fa-envelope-o mr-2"></i>
+                <a href="mailto:info@cosmoscollege.edu.np"
+                  >info@cosmoscollege.edu.np</a
+                >
+              </div>
+            </li>
+            <li class="list-inline-item mr-3">
+              <div class="d-flex align-items-center">
+                <i class="fa fa-phone mr-2"></i>
+                <a
+                  href="tel:+977015151545"
+                  style="font-size: 12px; font-weight: bold"
+                  >+977-1-5151704</a
+                >
+              </div>
+            </li>
+            <li class="list-inline-item mr-3">
+              <div class="d-flex align-items-center">
+                <i class="fa fa-phone mr-2"></i>
+                <a
+                  href="tel:+977015151411"
+                  style="font-size: 12px; font-weight: bold"
+                  >+977-1-5151411</a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <ul class="list-inline mb-0">
+            <li
+              class="list-inline-item mr-0 p-md-3 p-2 border-right border-left border-white-0_1"
+            >
+              <a href="#">Apply Now</a>
+            </li>
+            <li
+              class="list-inline-item mr-0 p-md-3 p-2 border-right border-white-0_1"
+            >
+              <a href="../contact/contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="list-inline mb-0">
+            <li
+              class="list-inline-item mr-0 p-3 border-right border-left border-white-0_1"
+            >
+              <a href="https://www.facebook.com/VisitCosmos"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li class="list-inline-item mr-0 p-3 border-right border-white-0_1">
+              <a href="https://cosmoscollege.edu.np/programs/17#"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+            <li class="list-inline-item mr-0 p-3 border-right border-white-0_1">
+                <a href="https://www.linkedin.com/company/73508368"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+            <li class="list-inline-item mr-0 p-3 border-right border-white-0_1">
+              <a
+                href="https://www.instagram.com/cosmos.college.official/"
+                target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- END END row-->
+      </div>
+      <!-- END container-->
+    </header>
+    <!-- END site header-->
+
+    <nav class="ec-nav sticky-top bg-white" style="font-size: 19px">
+      <div class="container">
+        <div class="navbar p-0 navbar-expand-lg">
+          <div class="navbar-brand">
+            <a class="logo-default" href="../home/home.html"
+              ><img alt="" src="../programs/BBA_files/ccmt1.png" class="logo_size_enigma"
+            /></a>
+          </div>
+          <span
+            aria-expanded="false"
+            class="navbar-toggler ml-auto collapsed"
+            data-target="#ec-nav__collapsible"
+            data-toggle="collapse"
+          >
+            <div class="hamburger hamburger--spin js-hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+          </span>
+          <div
+            class="collapse navbar-collapse when-collapsed"
+            id="ec-nav__collapsible"
+          >
+            <ul class="nav navbar-nav ec-nav__navbar ml-auto" >
+              <li class="nav-item nav-item__has-dropdown">
+                <a
+                  class="nav-link  navigation_enigma"
+                  data-toggle="dropdown"
+                  href="../home/home.html"
+                  >Home</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="../home/about-us.html" class="nav-link__list sub-navigation_enigma">About Us</a></li>
+                  <li>
+                    <a href="../home/welcome.html" class="nav-link__list sub-navigation_enigma">Welcome Message</a>
+                  </li>
+                  <li><a href="../home/life.html" class="nav-link__list sub-navigation_enigma">Life At Cosmos</a></li>
+                  <li>
+                    <a href="../home/bod.html" class="nav-link__list sub-navigation_enigma">Board Of Directors</a>
+                  </li>
+                  <li>
+                    <a href="../home/management.html" class="nav-link__list sub-navigation_enigma">Management Committee</a>
+                  </li>
+                  <li><a href="../home/operation.html" class="nav-link__list sub-navigation_enigma">Operation Team</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item nav-item__has-dropdown">
+                <a
+                  class="nav-link  navigation_enigma"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Programs</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="../programs/beit.html" class="nav-link__list sub-navigation_enigma">BEIT</a></li>
+                  <li>
+                    <a href="../programs/be-civil.html" class="nav-link__list sub-navigation_enigma"
+                      >BE Civil</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../programs/be-computer.html" class="nav-link__list sub-navigation_enigma"
+                      >BE Computer</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../programs/be-electricity.html" class="nav-link__list sub-navigation_enigma"
+                      >BE Elx &amp; Comm.</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../programs/be-arch.html" class="nav-link__list sub-navigation_enigma">BE Arch</a>
+                  </li>
+                  <li><a href="../programs/bba.html" class="nav-link__list sub-navigation_enigma">BBA</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item nav-item__has-dropdown">
+                <a
+                  class="nav-link  navigation_enigma"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Admissions</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="../admission/online-form.html" class="nav-link__list sub-navigation_enigma">Online Admission</a>
+                  </li>
+                  <li><a href="../admission/entrance exam.html" class="nav-link__list sub-navigation_enigma">Entrance Exam</a></li>
+                  <li><a href="../admission/scholarship.html" class="nav-link__list sub-navigation_enigma">Scholarships</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item nav-item__has-megamenu megamenu-col-2 navigation_enigma">
+                <a class="nav-link" href="../research/research.html">Research</a>
+              </li>
+
+              <li class="nav-item nav-item__has-dropdown">
+                <a
+                  class="nav-link  navigation_enigma"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Notices</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="../notice/notice 1.html" class="nav-link__list sub-navigation_enigma">Recent Notices</a></li>
+                  <li><a href="../notice/notice_events.html" class="nav-link__list sub-navigation_enigma">Events</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item nav-item__has-megamenu megamenu-col-2 navigation_enigma">
+                <a class="nav-link" href="../downloads/downloads.html">Downloads</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END container-->
+    </nav>
+    <!-- END ec-nav -->
+    <!-- END site-search-->
+
+    <div class="title-enigma bg-dark-enigma">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-white">
+            <h2>Welcome Message</h2>
+          </div>
+          <div class="col-md-6">
+            <ol
+              class="breadcrumb justify-content-md-end bg-transparent text-white"
+            >
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="#"> Page</a>
+              </li>
+              <li class="breadcrumb-item">Welcome To Cosmos</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="paddingTop-80 pb-5 pb-md-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="welcome_files/QOvV0pSg9MiknLYRHP9j.jpg" alt="" />
+          </div>
+          <div class="col-md-6 mt-2">
+            <h2>
+              <small class="text-primary d-block"> From </small>
+              Chairman's Desk
+            </h2>
+            <p class="lead">Together Today for a Successful Tomorrow.</p>
+            <p></p>
+            <p>Dear <strong>Prospective Students! </strong></p>
+            <div>
+              I would like to express my immense pleasure to introduce Cosmos
+              College of Management and Technology, as an establish college in
+              Kathmandu valley run by a dynamic team of renowned personalities
+              in the field of engineering and management.
+            </div>
+            <p>
+              In its glorious history of more than 19 successful years, Cosmos
+              College of Management and Technology has established a unique
+              academic brand name in the society by generating world class
+              manpower. I personally want to appreciate the ability of students
+              to integrate knowledge across different disciplines, skills of
+              adaptation and sensitivity to core human values. I firmly believe
+              in excellence and discipline, which, at Cosmos College is not an
+              act but a habit. We will leave no stone unturned to create an
+              excellent environment for teaching learning in order to produce
+              the technocrats and business leaders for future. Cosmos College of
+              Management and Technology is always committed to offering such
+              education that meets the requirements of society; inculcating
+              disciplines and cultural values. Let’s make better tomorrow by
+              working together. You are welcome to Cosmos College of Management
+              and Technology!
+            </p>
+            <p>Thanking You,</p>
+            <p></p>
+            <h4 class="mt-2">Er. Laxman Pokharel</h4>
+            <p>Chairman</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="paddingTop-80 pb-5 pb-md-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="welcome_files/JEYRhJ5pD0vAcXcko9Du.png" alt="" />
+          </div>
+          <div class="col-md-6 mt-2">
+            <h2>
+              <small class="text-primary d-block"> Welcome to COSMOS. </small>
+              Message From Principal.
+            </h2>
+            <p class="lead">
+              People make a university great, so whether you are a prospective
+              student, current student, professor.
+            </p>
+            <p></p>
+            <p>
+              The future belongs to those who believe in the beauty of their
+              dreams.It is my pride and pleasure to welcome you all bright minds
+              from across the country to
+              <strong>Cosmos College of Management and Technology (CCMT)</strong
+              >,a premier institution committed to imparting quality education
+              to young aspirants of the 21st century. As the principal of this
+              renowned college, I have the pleasure and privilege of leading
+              this institution on its journey to preeminence. I feel pride to
+              state that the college has achieved a remarkable progress in last
+              nineteen years and is able to cultivate an academic excellence.
+              The level of education offered by this college is up-to-date,
+              comparable to those of the best institutions anywhere in this
+              continent and justifiable to the country. Overall development of
+              the individual is the goal of education I, as the Principal of
+              CCMT, am to strongly committed to grooming highly qualified
+              Engineers and Managers with a fine blend of technological skills
+              and good human values. The college, by providing effective
+              resources and productive environment, facilitates learning and
+              overall development of students. We provide our students with
+              opportunities to engage in experiments, designing, project works
+              and team works to enhance their knowledge and skill. We are proud
+              of our dedicated faculty, who are the veterans in their field. The
+              holistic approach of the college stimulates innovation among
+              students by inspiring them to develop fresh ideas with different
+              perceptiveness; create thinking and strong conviction to achieve
+              true success. Finally, I would like to thank all individuals,
+              teaching as well as non-teaching staff and sincere students, who
+              are fully devoted to make this college a centre of academic
+              excellence.I express my best wishes to all students to achieve
+              success in their chosen field.
+            </p>
+            <p></p>
+            <h4 class="mt-2">Dr. pawan Kr. Bhattarai</h4>
+            <p>Principal (H*): Honorary</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-top text-white paddingBottom-100 footer_enigma">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mt-5">
+              <h4 class="h5 text-white">About Us</h4>
+              <!-- enigma logo changed and text added -->
+              <div class="width-3rem bg-primary height-3 mt-3"></div>
+              <div class="margin-y-40">
+                <p>
+                  Come, join us for a better future. Together today for a
+                  successful tomorrow.
+                </p>
+              </div>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a
+                    class="iconbox bg-white-0_2 hover:primary"
+                    href="https://www.facebook.com/sharer/sharer.php?u=face
+                    book.com/VisitCosmos&amp;display=popup"
+                    ><i class="fa fa-facebook"> </i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="iconbox bg-white-0_2 hover:primary"
+                    href="https://cosmoscollege.edu.np/programs/17#"
+                    ><i class="fa fa-twitter"> </i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="iconbox bg-white-0_2 hover:primary"
+                    href="https://www.linkedin.com/company/73508368/"
+                    ><i class="fa fa-linkedin"> </i
+                  ></a>
+                </li>
+                <li
+                  class="list-inline-item mr-0 p-3 border-right border-white-0_1"
+                >
+                  <a
+                    href="#"
+                    target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5">
+              <h4 class="h5 text-white">Contact Us</h4>
+              <div class="width-3rem bg-primary height-3 mt-3"></div>
+              <ul class="list-unstyled marginTop-40">
+                <li class="mb-3">
+                  <i class="fa fa-phone mr-3"></i
+                  ><a href="tel:+97715151411">+977-1-5151411</a>
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-envelope-o mr-3"></i
+                  ><a href="mailto:info@cosmoscollege.edu.np"
+                    >info@cosmoscollege.edu.np</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <div class="media">
+                    <i class="fa fa-map-marker mt-2 mr-3"></i>
+                    <div class="media-body">
+                      <span> Tutepani, Chapagaun Dobato, Nepal</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 mt-5">
+              <h4 class="h5 text-white">Quick links</h4>
+              <div class="width-3rem bg-primary height-3 mt-3"></div>
+              <ul class="list-unstyled marginTop-40">
+                <li class="mb-2">
+                  <a href="../home/about-us.html">About Us</a>
+                </li>
+                <li class="mb-2">
+                  <a href="../contact/contact-us.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="../programs/bba.html">Programs</a>
+                </li>
+                <li class="mb-2">
+                  <a href="../admission/online-form.html">Admission</a>
+                </li>
+                <li class="mb-2">
+                  <a href="../notice/notice_events.html">Events</a>
+                </li>
+                <li class="mb-2">
+                  <a href="../notice/notice 1.html">Latest News</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-5">
+              <h4 class="h5 text-white">Newsletter</h4>
+              <div class="width-3rem bg-primary height-3 mt-3"></div>
+              <div class="marginTop-40">
+                <p class="mb-4">
+                  Subscribe to get update and information. Don't worry, we won't
+                  send spam!
+                </p>
+                <form
+                  class="marginTop-30"
+                  action="https://cosmoscollege.edu.np/programs/17#"
+                  method="POST"
+                >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Enter your email"
+                      class="form-control py-3 border-white"
+                      required=""
+                    />
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="submit">
+                        Subscribe
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- END row-->
+        </div>
+        <!-- END container-->
+      </div>
+      <!-- END footer-top-->
+
+      <div class="bg-color_enigma text-center">
+        <!-- py-5 removed & footer-bootom removed -->
+        <div class="container">
+          <p class="text-white mb-0">
+            © 2021 Cosmos College. All rights reserved.
+          </p>
+        </div>
+      </div>
+      <!-- END footer-bottom-->
+    </footer>
+    <!-- END site-footer -->
+    <div class="scroll-top">
+      <i class="fa fa-angle-up"></i>
+    </div>
+
+    <script src="welcome_files/vendors.js"></script>
+    <script src="welcome_files/scripts.js"></script>
+  </body>
+</html>

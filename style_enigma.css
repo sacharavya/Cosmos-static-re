@@ -1,0 +1,206 @@
+.logo_size_enigma{
+    width: 210px;
+}
+.navigation_enigma{
+    font-size: 14px;
+}
+
+.sub-navigation_enigma{
+    font-size: 12px!important;
+}
+
+.title-enigma{
+    padding-bottom: 0.9375rem!important;
+    padding-top: 0.9375rem!important;
+    background-color: #313131;
+}
+.underline_enigma{
+    width: 25rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.content_enigma{
+    font-size: 12pt; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #000000; 
+    background-color: transparent; 
+    font-weight: 400; 
+    font-style: normal; 
+    text-decoration: none; 
+    vertical-align: baseline; 
+    text-align: justify;
+}
+
+.name_enigma{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.footer_enigma{
+    padding-top: 0;
+    padding-bottom: 1.25rem !important;
+    background-color: #313131 !important;
+}
+
+.content_arch_enigma{
+    font-size: 12pt; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #000000; 
+    background-color: transparent; 
+    font-weight: 400; 
+    font-style: normal; 
+    text-decoration: none; 
+    vertical-align: baseline; 
+    text-align: justify;
+}
+
+.syllabus_section_enigma{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.research_content_enigma{
+    padding-top: 0.6rem ;
+    padding-bottom: 0.6rem;
+}
+
+.research_overvie_enigma{
+    font-size: 15px;
+    line-height: 2em;
+    color: #5e5e5e;
+}
+
+.other_research_enigma{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.size_enigma{
+    font-size:12px ;
+}
+
+.fontsize_enigma{
+    font-size: 15px;
+}
+
+.notice_detail_enigma{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #313131;
+}
+
+.notice_padding_enigma{
+    padding-bottom: 1.25rem!important;
+    padding-top: 0.625rem!important;
+   
+}
+ .padding_enigma{
+    padding-bottom: 1.25rem!important;
+    padding-top: 1.25rem!important;
+ }
+
+ /* Css for Modal, on load pop-up */
+.modal-header {
+    background-color: #337ab7 !important;
+  
+    padding: 16px 16px;
+  
+    /* color: #fff; */
+  }
+  
+  button.close-enigma {
+    color: #fff;
+    display: inline-block;
+    font-size: 34px;
+    border: none;
+    line-height: 0;
+    margin: 0px 1px;
+    margin-top: 16px;
+    opacity: 1;
+    text-align: center;
+    text-shadow: none;
+    -webkit-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+    vertical-align: top;
+    font-size: 30px;
+  }
+  
+  .pointer-enigma {
+    cursor: pointer;
+    height: 0px;
+    width: 0px;
+    padding: 0;
+    margin-right: 20px !important;
+  }
+  
+  /*  */
+  .heading-2-enigma {
+    font-size: 32px;
+  }
+  
+  .text-primary-enigma {
+    font-size: 36px;
+  }
+  
+  .padding-button-enigma {
+    padding-bottom: 50px;
+  }
+  .secondary-text-enigma {
+    font-size: 18px;
+  }
+  
+  .p-enigma {
+    font-size: 15px;
+  }
+  
+  .p-color-enigma {
+    color: #5e5e5e !important;
+  }
+  
+  .strong-enigma {
+    color: #393939;
+    font-size: 16px;
+  }
+  
+  .notice-board-enigma {
+    margin-top: -320px;
+  }
+  
+  .border-radius-enigma {
+    border-radius: 15px !important;
+  }
+  
+  .border-radius-top-enigma {
+    border-radius: 15px 15px 0 0 !important;
+  }
+  
+  .notice-date-enigma {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .notice-info-enigma {
+    visibility: hidden;
+    animation-name: none;
+  }
+  
+  .text-uppercase-enigma {
+    text-transform: uppercase;
+  }
+  
+  .fit-image-enigma {
+    max-height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+  
+  .bg-dark-enigma{
+    background-color: #313131;
+  }
+
+  .bg-color_enigma{
+    background-color: #d92128 !important;
+  }
+  .site-header{
+    padding:0px !important;
+  }

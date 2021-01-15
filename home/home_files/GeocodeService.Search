@@ -1,0 +1,127 @@
+/**/_xdc_._2np5zt && _xdc_._2np5zt( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Satdobato-Tikabhairab Road",
+               "short_name" : "Satdobato-Tikabhairab Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Kusunti",
+               "short_name" : "Kusunti",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Chapagaun",
+               "short_name" : "Chapagaun",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bagmati",
+               "short_name" : "Bagmati",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Central Development Region",
+               "short_name" : "Central Development Region",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Nepal",
+               "short_name" : "NP",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "44700",
+               "short_name" : "44700",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Satdobato-Tikabhairab Rd, Chapagaun 44700, Nepal",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.6552925,
+               "lng" : 85.32109919999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 27.6566414802915,
+                  "lng" : 85.32244818029149
+               },
+               "southwest" : {
+                  "lat" : 27.6539435197085,
+                  "lng" : 85.31975021970848
+               }
+            }
+         },
+         "place_id" : "ChIJ2SClVnwX6zkRt980cePR0PM",
+         "plus_code" : {
+            "compound_code" : "M84C+4C Chapagaun, Nepal",
+            "global_code" : "7MV7M84C+4C"
+         },
+         "types" : [ "establishment", "point_of_interest", "school", "university" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lalitpur",
+               "short_name" : "Lalitpur",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kusunti",
+               "short_name" : "Kusunti",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bagmati",
+               "short_name" : "Bagmati",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Central Development Region",
+               "short_name" : "Central Development Region",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Nepal",
+               "short_name" : "NP",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "44700",
+               "short_name" : "44700",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Lalitpur 44700, Nepal",
+         "geometry" : {
+            "location" : {
+               "lat" : 27.6522821,
+               "lng" : 85.32061139999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 27.6536310802915,
+                  "lng" : 85.3219603802915
+               },
+               "southwest" : {
+                  "lat" : 27.6509331197085,
+                  "lng" : 85.31926241970848
+               }
+            }
+         },
+         "place_id" : "ChIJZWgXj3sX6zkRWnphzgEGsZM",
+         "plus_code" : {
+            "compound_code" : "M82C+W6 Lalitpur, Nepal",
+            "global_code" : "7MV7M82C+W6"
+         },
+         "types" : [ "establishment", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )

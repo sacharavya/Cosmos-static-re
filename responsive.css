@@ -1,0 +1,26 @@
+@media screen and (max-width:767px){
+    /* notice card  line 310 */
+    .impcard{
+        margin-top: 0px !important;
+        
+    }
+    .z-index-5{
+        z-index: 1 !important;
+    }
+    .spacing{
+        margin-bottom: 23em;
+        /* line 309 */
+    }
+
+    .hamburger{
+        width: 35px !important;
+    height: 31px !important;
+    padding: 5px;
+    }
+    .right-50{
+        display: none;
+    }
+    .paddingBottom-20 {
+        padding-bottom: 2.5rem!important;
+    }
+}
